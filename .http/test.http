@@ -1,0 +1,5 @@
+GET {{baseUrl}}/api/locations/find?lat=61.7951&lng=-68.4805
+
+
+### Brute force lookup
+GET {{baseUrl}}/api/locations/find?lat=61.7951&lng=-68.4805&method=brute

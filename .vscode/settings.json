@@ -1,0 +1,10 @@
+{
+    "rest-client.environmentVariables": {
+        // variable replacement functionality is not 100%. if things aren't acting how you expect, maybe 
+        // debug and make sure the service is actually receiving the values you think it should.
+        // The main surprise I have seen is that environment variable replacement doesn't work in environment variables.
+        "$shared": {
+            "baseUrl": "https://localhost:7054"
+        }
+    }
+}
